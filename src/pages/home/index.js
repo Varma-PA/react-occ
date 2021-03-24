@@ -8,9 +8,9 @@ function Home() {
 
   useEffect(() => {
     async function grabData() {
-      // await fetchLogin.then((response) => console.log(response));
+      await fetchLogin.then((response) => console.log(response));
 
-      await fetchingTheSites();
+      // await fetchingTheSites();
 
       //   console.log(result);
     }
